@@ -6,18 +6,6 @@ using namespace std ;
 int main()
 {
 
-
-
-
-
-
-
-
-
-
-
-
-
 float recursos,promedio,indice;
 std::cout<<"ingresa el promedio: ";
 std::cin>>promedio;
@@ -29,4 +17,6 @@ std::cout<<"eres candidato para resivir tu beca: " << indice;
     
 }else{
 cout<<"lamentablemente no eres candidato: ";
+}
+ return 0;
 }
