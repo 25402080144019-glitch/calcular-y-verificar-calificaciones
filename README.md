@@ -14,4 +14,13 @@ int main()
     cin>>pro3 ;
     resultado= (pro1+pro2+pro3)/3 ;
     cout<<"el promedio final es: " <<resultado;
+
+
+
+
+
+
+
     
+return 0;
+ }
