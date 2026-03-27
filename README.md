@@ -7,7 +7,7 @@ int main()
 {
 
 int cal1, cal2, cal3, cal4, cal5, cal6, resultado;
-float recursos,promedio,indice;
+float recursos,promedio,indice,pro1,pro2,pro3;
 std::cout<<"ingresa el promedio: ";
 std::cin>>promedio;
 std::cout<<"ingresa la cantidad de dinero que ingresan en casa: ";
@@ -35,3 +35,11 @@ cout<<"ingrese primera calificacion: " ;
     cin>>cal6;
     resultado=(cal1+cal2+cal3+cal4+cal5+cal6)/6;
     cout<<"el promedio del parcial es: " <<resultado;
+    cout<<"ingrese primer promedio:" ;
+    cin>>pro1;
+    cout<<"ingrese segundo promedio:" ;
+    cin>>pro2 ;
+    cout<<"ingrese tercer promedio:" ;
+    cin>>pro3 ;
+    resultado= (pro1+pro2+pro3)/3 ;
+    cout<<"el promedio final es: " <<resultado;
