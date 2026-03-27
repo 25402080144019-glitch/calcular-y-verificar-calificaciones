@@ -1,19 +1,18 @@
 # calcular-y-verificar-calificaciones
 calcular
 #include <iostream>
-using namespace std;
+using namespace std ;
 
 int main()
 {
-float recursos,promedio,indice;
-std::cout<<"ingresa el promedio: ";
-std::cin>>promedio;
-std::cout<<"ingresa la cantidad de dinero que ingresan en casa: ";
-std::cin>>recursos;
-indice=recursos+promedio;
-if(indice<6000){
-std::cout<<"eres candidato para resivir tu beca: " << indice;
+    float pro1,pro2,pro3, resultado;
+    cout<<"ingrese primer promedio:" ;
+    cin>>pro1;
+    cout<<"ingrese segundo promedio:" ;
+    cin>>pro2 ;
+    cout<<"ingrese tercer promedio:" ;
+    cin>>pro3 ;
+    resultado= (pro1+pro2+pro3)/3 ;
+    cout<<"el promedio final es: " <<resultado;
     return 0;
-}else{
-cout<<"lamentablemente no eres candidato: ";
 }
